@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "fp";
+    src: url("../fonts/CONSOLA.TTF") format("truetype");
+}
+body{
+    background-color: #E7E9EB;
+}
+.p_tbdr{
+    border: 2px solid blue;
+}
+.p_w10{
+    width: 200px;
+}
+.p_w5{
+    width: 100px;
+}
+.p_h600{
+    min-height: 620px;
+}
+.p_h300{
+    min-height: 320px;
+}
+.p_consola{
+    font-family: fp;
+}
+#ec{
+    outline: none;
+}
+.loader{
+    width: 4rem;
+    height: 4rem;
+    border-width: 0.5rem;
+}
